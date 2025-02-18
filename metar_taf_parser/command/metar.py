@@ -126,7 +126,9 @@ class RunwayCommand:
 
     def __parse_deposit_braking_capacity(self, input):
         braking_capacity = self._deposit_braking_capacity.get(input, 'DepositBrakingCapacity.default')
-        return _(braking_capacity).format(float(input) / 100)
+        if braking_capacity == "DepositBrakingCapacity.default":
+            return _(braking_capacity).format(float(input) / 100)
+        return _(braking_capacity)
 
 
 class TemperatureCommand:
