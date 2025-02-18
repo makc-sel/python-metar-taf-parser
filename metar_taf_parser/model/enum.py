@@ -34,10 +34,16 @@ class CloudType(enum.Enum):
 
 class DepositCoverage(enum.Enum):
     NOT_REPORTED = '/'
-    LESS_10 = '1'
-    FROM_11_TO_25 = '2'
-    FROM_26_TO_50 = '5'
-    FROM_51_TO_100 = '9'
+    FROM_0_to_9 = '0'
+    FROM_10_TO_19 = '1'
+    FROM_20_TO_29 = '2'
+    FROM_30_TO_39 = '3'
+    FROM_40_TO_49 = '4'
+    FROM_50_TO_59 = '5'
+    FROM_60_TO_69 = '6'
+    FROM_70_TO_79 = '7'
+    FROM_80_TO_89 = '8'
+    FROM_90_TO_100 = '9'
 
     def __repr__(self):
         return _('DepositCoverage.' + self.name)

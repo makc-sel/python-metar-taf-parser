@@ -284,7 +284,7 @@ class MetarParserTestCase(unittest.TestCase):
         self.assertEqual(1, len(metar.runways_info))
         self.assertEqual('14R', metar.runways_info[0].name)
         self.assertEqual(DepositType.WET_SNOW, metar.runways_info[0].deposit_type)
-        self.assertEqual(DepositCoverage.FROM_51_TO_100, metar.runways_info[0].coverage)
+        self.assertEqual(DepositCoverage.FROM_90_TO_100, metar.runways_info[0].coverage)
         self.assertEqual('03 mm', metar.runways_info[0].thickness)
         self.assertEqual(_('DepositBrakingCapacity.default').format(0.35), metar.runways_info[0].braking_capacity)
 

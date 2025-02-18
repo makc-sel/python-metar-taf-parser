@@ -111,20 +111,44 @@ msgid "DepositCoverage.NOT_REPORTED"
 msgstr "not reported"
 
 #:
-msgid "DepositCoverage.LESS_10"
-msgstr "less than 10%"
+msgid "DepositCoverage.FROM_0_to_9"
+msgstr "from 0% to 9%"
 
 #:
-msgid "DepositCoverage.FROM_11_TO_25"
-msgstr "from 11% to 25%"
+msgid "DepositCoverage.FROM_10_TO_19"
+msgstr "from 10% to 19%"
 
 #:
-msgid "DepositCoverage.FROM_26_TO_50"
-msgstr "from 26% to 50%"
+msgid "DepositCoverage.FROM_20_TO_29"
+msgstr "from 20% to 29%"
 
 #:
-msgid "DepositCoverage.FROM_51_TO_100"
-msgstr "from 51% to 100%"
+msgid "DepositCoverage.FROM_30_TO_39"
+msgstr "from 30% to 39%"
+
+#:
+msgid "DepositCoverage.FROM_40_TO_49"
+msgstr "from 40% to 49%"
+
+#:
+msgid "DepositCoverage.FROM_50_TO_59"
+msgstr "from 50% to 59%"
+
+#:
+msgid "DepositCoverage.FROM_60_TO_69"
+msgstr "from 60% to 69%"
+
+#:
+msgid "DepositCoverage.FROM_70_TO_79"
+msgstr "from 70% to 79%"
+
+#:
+msgid "DepositCoverage.FROM_80_TO_89"
+msgstr "from 80% to 89%"
+
+#:
+msgid "DepositCoverage.FROM_90_TO_100"
+msgstr "from 90% to 100%"
 
 #:
 msgid "DepositThickness.//"
