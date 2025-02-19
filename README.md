@@ -4,12 +4,6 @@
 
 This project provides METAR and TAF parsers.
 
-## Install
-
-```shell
-pip install metar-taf-parser-mivek
-```
-
 ## Structure
 
 ### Commons package
